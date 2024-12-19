@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olacabs</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/utility.css">
+    <link rel="stylesheet" href="./css/bannerHero.css">
+    <link rel="stylesheet" href="./css/sec1.css">
+    <link rel="stylesheet" href="./css/sec2.css">
+    <link rel="stylesheet" href="./css/sec3.css">
+    <link rel="stylesheet" href="./css/sec4.css">
+    <link rel="stylesheet" href="./css/sec5.css">
+    <link rel="stylesheet" href="./css/sec6.css">
+    <link rel="stylesheet" href="./css/sec7.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="page-wrapper">
+
+        <!-- Header -->
+        <header class="display-flex justify-content-center align-items-center">
+            <!-- logo -->
+            <div class="logo display-flex justify-content-start align-items-center">
+                <a href="">
+                    <img src="./assets/ola-white-logo.svg" alt="">
+                </a>
+            </div>
+    
+            <!-- nav bar -->
+            <div class="header_section display-flex jcsb">
+    
+                <!-- top left menu -->
+                <div class="header_menu display-flex justify-content-center align-items-center">
+                   
+                        <ul class="menu display-flex g20">
+                            <li><a href="">
+                                Ola Electric</a></li>
+                            <li><a href="">Krutrim</a></li>
+                            <li><a href="">Outstation</a></li>
+                        </ul>
+                
+                </div>
+    
+                    <!-- top  right menu -->
+                 <div class="right_menu display-flex justify-content-start align-items-center jcsb">
+                    <div class="right_menu_wrapper display-flex jcsb">
+                        <div class="right_menu_link display-flex justify-content-center align-items-center" id="Book">
+                            <a href="">Book an Ola Cab</a>
+                        </div>
+                        <div class="right_menu_link display-flex justify-content-center align-items-center" id="Testride">
+                            <a href="">Free S1 Test Ride</a>
+                        </div>
+                    </div>
+    
+                    <!-- hamburger -->
+                    <div class="side_bar display-flex justify-content-center align-items-center">
+                        <span href="" onclick=show_side_menu()><svg xmlns="http://www.w3.org/2000/svg" height="20" width="17.5" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg></>
+                    </div>
+                 </div>
+            </div>
+    
+            
+        </header>
+    
+        <!-- sidebar -->
+        <div class="side_menu">
+            <div class="close_button">
+                <span href="" onclick=hide_side_menu() >
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" width="15" viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#000000" d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
+                </span>
+            </div>
+            <div class="menu">
+                <ul>
+                    <a href="">
+                        <li>Book an Ola Cab</li>
+                    </a>
+                    <a href="">
+                        <li>Drive with Ola</li>
+                    </a>
+                    <a href="">
+                        <li>Ola S1</li>
+                    </a>
+                    <a href="">
+                        <li>Ola Electric</li>
+                    </a>
+                    <a href="">
+                        <li>Krutrim</li>
+                    </a>
+                    <a href="">
+                        <li>Outstation</li>
+                    </a>
+                    <a href="">
+                        <li>Ola FutureFactory</li>
+                    </a>
+                    <a href="">
+                        <li>Ola Corporate</li>
+                    </a>
+                    <a href="">
+                        <li>Ola Fondation</li>
+                    </a>
+                    <a href="">
+                        <li>Support</li>
+                    </a>
+                </ul>
+            </div>
+    
+            <div class="side_menu_bottom">
+                <div class="menu_img">
+                    <img src="./assets/pink-banner-mob.png" alt="">
+                </div>
+    
+                <div class="bottom_div">
+                    <ul class="display-flex justify-content-center g20">
+                        <li><a href="">Careers</a></li>
+                        <li><a href="">Notices</a></li>
+                        <li><a href="">Privacy</a></li>
+                        <li><a href="">T&C</a></li>
+                    </ul>
+                </div>
+                <div class="bottom_div display-flex align-items-center jcsb">
+                    <a href="">
+                        <svg width="39" height="24" viewBox="0 0 39 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M31.44 11.94L35.08 18.73H38.66L31.44 5.28003L24.22 18.73H27.8L31.44 11.94Z" fill="black"/>
+                            <path d="M19.5899 15.58L19.5999 5.26001H16.4399V18.73H22.5299L24.2199 15.58H19.5899Z" fill="black"/>
+                            <path d="M7.57009 4.78004C6.14169 4.77806 4.74479 5.19982 3.55615 5.99196C2.36752 6.7841 1.44055 7.91102 0.892555 9.23013C0.344557 10.5492 0.200149 12.0012 0.477604 13.4024C0.755059 14.8036 1.44191 16.0911 2.45124 17.1018C3.46058 18.1125 4.74704 18.8012 6.14786 19.0806C7.54867 19.36 9.00089 19.2176 10.3208 18.6714C11.6406 18.1252 12.7688 17.1998 13.5626 16.0123C14.3564 14.8248 14.7801 13.4284 14.7801 12C14.7801 10.0869 14.0208 8.25198 12.6689 6.89826C11.3171 5.54453 9.48322 4.78269 7.57009 4.78004ZM7.57009 15.89C6.8003 15.892 6.04723 15.6656 5.40621 15.2393C4.76518 14.8131 4.26504 14.2062 3.96908 13.4956C3.67312 12.785 3.59466 12.0025 3.74362 11.2473C3.89259 10.492 4.26228 9.79797 4.80591 9.25295C5.34953 8.70792 6.04265 8.33644 6.7975 8.18553C7.55236 8.03462 8.33502 8.11107 9.04641 8.4052C9.7578 8.69933 10.3659 9.19791 10.7938 9.83783C11.2217 10.4778 11.4501 11.2302 11.4501 12C11.4474 13.0326 11.0354 14.0221 10.3043 14.7513C9.57317 15.4805 8.58271 15.89 7.55009 15.89H7.57009Z" fill="black"/>
+                            </svg>
+                    </a>
+    
+                    <div class="display-flex justify-content-center align-items-center .g40 .wd-10">
+                        <a href=""><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 4.62162C14.4031 4.62162 14.6878 4.6308 15.6368 4.6741C16.5143 4.71411 16.9909 4.86073 17.308 4.98398C17.7281 5.14725 18.0279 5.34227 18.3428 5.65719C18.6578 5.97216 18.8528 6.27196 19.0161 6.69206C19.1393 7.00919 19.2859 7.48574 19.326 8.36323C19.3693 9.31224 19.3784 9.59691 19.3784 12C19.3784 14.4031 19.3693 14.6877 19.326 15.6368C19.2859 16.5143 19.1393 16.9908 19.0161 17.308C18.8528 17.728 18.6578 18.0279 18.3429 18.3428C18.0279 18.6577 17.7281 18.8527 17.308 19.016C16.9909 19.1393 16.5143 19.2859 15.6368 19.3259C14.688 19.3692 14.4033 19.3784 12 19.3784C9.59675 19.3784 9.31216 19.3692 8.36325 19.3259C7.48575 19.2859 7.00921 19.1393 6.69207 19.016C6.27197 18.8527 5.97216 18.6577 5.65724 18.3428C5.34232 18.0279 5.14726 17.728 4.98399 17.308C4.86073 16.9908 4.71412 16.5143 4.6741 15.6368C4.63081 14.6877 4.62163 14.4031 4.62163 12C4.62163 9.59691 4.63081 9.31224 4.6741 8.36323C4.71412 7.48574 4.86073 7.00919 4.98399 6.69206C5.14726 6.27196 5.34228 5.97216 5.65724 5.65723C5.97216 5.34227 6.27197 5.14725 6.69207 4.98398C7.00921 4.86073 7.48575 4.71411 8.36325 4.6741C9.31227 4.6308 9.59693 4.62162 12 4.62162ZM12 3C9.55578 3 9.24928 3.01036 8.28933 3.05416C7.33139 3.09785 6.67714 3.25001 6.10467 3.47247C5.51284 3.70247 5.01093 4.01021 4.51055 4.51055C4.01022 5.01092 3.70247 5.51283 3.47251 6.10466C3.25001 6.67713 3.09785 7.33137 3.05416 8.28931C3.01036 9.24926 3 9.55575 3 12C3 14.4443 3.01036 14.7507 3.05416 15.7107C3.09785 16.6687 3.25001 17.3229 3.47251 17.8954C3.70247 18.4872 4.01022 18.9891 4.51055 19.4895C5.01093 19.9898 5.51284 20.2975 6.10467 20.5275C6.67714 20.75 7.33139 20.9021 8.28933 20.9458C9.24928 20.9896 9.55578 21 12 21C14.4443 21 14.7508 20.9896 15.7108 20.9458C16.6687 20.9021 17.323 20.75 17.8954 20.5275C18.4873 20.2975 18.9892 19.9898 19.4895 19.4895C19.9898 18.9891 20.2976 18.4872 20.5276 17.8954C20.7501 17.3229 20.9022 16.6687 20.9459 15.7107C20.9897 14.7507 21.0001 14.4443 21.0001 12C21.0001 9.55575 20.9897 9.24926 20.9459 8.28931C20.9022 7.33137 20.7501 6.67713 20.5276 6.10466C20.2976 5.51283 19.9898 5.01092 19.4895 4.51055C18.9892 4.01021 18.4873 3.70247 17.8954 3.47247C17.323 3.25001 16.6687 3.09785 15.7108 3.05416C14.7508 3.01036 14.4443 3 12 3Z" fill="black"/>
+                            <path d="M12.0045 7.38281C9.45197 7.38281 7.38281 9.45197 7.38281 12.0044C7.38281 14.5569 9.45197 16.626 12.0045 16.626C14.5569 16.626 16.6261 14.5569 16.6261 12.0044C16.6261 9.45197 14.5569 7.38281 12.0045 7.38281ZM12.0045 15.0045C10.3476 15.0045 9.00444 13.6613 9.00444 12.0044C9.00444 10.3476 10.3476 9.00443 12.0045 9.00443C13.6613 9.00443 15.0044 10.3476 15.0044 12.0044C15.0044 13.6613 13.6613 15.0045 12.0045 15.0045Z" fill="black"/>
+                            <path d="M17.8866 7.19721C17.8866 7.79365 17.403 8.2772 16.8065 8.2772C16.2101 8.2772 15.7266 7.79365 15.7266 7.19721C15.7266 6.60074 16.2101 6.11719 16.8065 6.11719C17.403 6.11719 17.8866 6.60074 17.8866 7.19721Z" fill="black"/>
+                            </svg>
+                            </a>
+                        <a href=""><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M20.9096 6.07183C21.2201 6.38224 21.4439 6.76856 21.5586 7.19231C22.2192 9.85 22.0665 14.0474 21.5715 16.8077C21.4568 17.2314 21.233 17.6177 20.9224 17.9281C20.6119 18.2386 20.2253 18.4622 19.8014 18.5769C18.2494 19 12.0027 19 12.0027 19C12.0027 19 5.75609 19 4.20405 18.5769C3.7801 18.4622 3.39359 18.2386 3.08303 17.9281C2.77247 17.6177 2.54868 17.2314 2.43396 16.8077C1.76954 14.1615 1.95168 9.96154 2.42114 7.20513C2.53586 6.78138 2.75964 6.39506 3.07021 6.08465C3.38077 5.77424 3.76727 5.55056 4.19123 5.4359C5.74327 5.01282 11.9899 5 11.9899 5C11.9899 5 18.2365 5 19.7886 5.42308C20.2125 5.53774 20.599 5.76142 20.9096 6.07183ZM15.1838 12L10.0018 15V8.99999L15.1838 12Z" fill="black"/>
+                            </svg>
+                            </a>
+                        <a href="">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M22 5.79717C21.2647 6.12381 20.4734 6.34379 19.6435 6.44312C20.4907 5.93515 21.1414 5.13121 21.4473 4.17327C20.6554 4.6439 19.7762 4.98455 18.8422 5.16921C18.0936 4.37192 17.0263 3.87329 15.8471 3.87329C13.5813 3.87329 11.744 5.7105 11.744 7.97635C11.744 8.29766 11.7807 8.61097 11.8507 8.91162C8.44024 8.74097 5.41711 7.10707 3.39324 4.62457C3.03993 5.23053 2.83794 5.93516 2.83794 6.68711C2.83794 8.11035 3.56123 9.36627 4.66316 10.1022C3.98987 10.0809 3.35791 9.89622 2.80395 9.58892V9.64024C2.80395 11.6288 4.21918 13.2866 6.09506 13.6646C5.75108 13.758 5.38844 13.8086 5.01447 13.8086C4.74982 13.8086 4.4925 13.7826 4.24185 13.7346C4.76382 15.3645 6.27972 16.5511 8.07492 16.5845C6.67102 17.6844 4.90181 18.341 2.97927 18.341C2.64729 18.341 2.32065 18.3216 2 18.283C3.81587 19.447 5.9724 20.1269 8.28958 20.1269C15.8364 20.1269 19.9635 13.8746 19.9635 8.45298C19.9635 8.27499 19.9602 8.09768 19.9515 7.92236C20.7541 7.3424 21.45 6.61977 22 5.79717Z" fill="black"/>
+                                </svg>
+                                
+                        </a>
+                    </div>
+                                     
+                </div>
+            </div>
+        </div>
+
+        <!-- Header end -->
+         <!-- banner -->
+        <div class="banner_img display-flex justify-content-center align-items-end">
+            <img src="./assets/hero-banner.webp" alt="">
+            <div class="pick_info">
+                <h1>Moving people, and the world</h1>
+                <br><br>
+                <div class="tabs display-flex">
+                    <button class="tab active">Daily</button>
+                    <button class="tab">Rental</button>
+                    <button class="tab">Outstation</button>
+                </div>
+                <div class="activity_panel display-flex justify-content-center align-items-center">
+                    <div class="active_panel display-flex align-items-center">
+
+                        <div class="cur_loc">
+                            <span class="green_dot"></span>
+                            <input type="text" placeholder="Current Location" name="textbox1" id="textbox1" class="textbox1">
+                            <div id="select-curr-loc" class="current-location-icon">
+                                <img src="./assets/current-location.svg" alt="Location Icon">
+                            </div>
+                        </div>
+                
+                        <div class="single_line"></div>
+
+                        <div class="dest_loc">
+                            <span class="red_dot"></span>
+                            <input type="text" placeholder="Enter Location" name="destination_location" id="destination_location" class="destination_location">
+                        </div>
+
+                        <button class="search_for_cabs">
+                            <span class="search_txt_white">SEARCH</span>
+                            <span class="search_txt_green">OLA CABS</span>
+                            <img src="./assets/forward-arrow.svg">
+                        </button>
+                    </div>
+                </div>
+            </div>            
+        </div>
+        <!-- hero ends -->
+        <!-- next section -->
+         <div class="sec1_wrapper display-flex justify-content-start align-items-center">
+            <a href="">
+                <div class="index_banner"></div>
+            </a>
+            <div class="index_banner_2 display-flex justify-content-center align-items-center">
+                <h2 class="mgz-element-heading-text"> Global mobility ecosystem driving communities forward </h2>
+            </div>
+            <div class="index_banner_3 display-flex">
+                <div class="banner_container">
+                    <img src="./assets/cts-covered.svg" alt="">
+                    <p>250+</p>
+                    <p>Cities covered</p>
+                    <p>Across India, Australia, New Zealand and the UK</p>
+                </div>
+                <div class="banner_container">
+                    <img src="./assets/year-rides.svg" alt="">
+                    <p>55 Cr+</p>
+                    <p>Yearly rides</p>
+                    <p>Booked by our customers every year</p>
+                </div>
+                <div class="banner_container">
+                    <img src="./assets/kms-covered.svg" alt="">
+                    <p>12 Cr+</p>
+                    <p>Kilometers on S1</p>
+                    <p>Distance covered on Ola S1 scooters within a year of launch</p>
+                </div>
+            </div>
+         </div>
+         <!-- section1 ends -->
+
+         <!-- sec2 starts -->
+        <div class="sec2_outter_wrapper display-flex justify-content-center align-items-center">
+            <div class="sec2_inner_wrapper display-flex justify-content-start align-items-center">
+                <div class="sec2_inner_sec1 ">
+                    <div class="mgz-element-heading display-flex justify-content-start align-items-start">
+                        <h3> There's an Ola ride for everyone </h3>
+                    </div>
+                    <div class="inner_content display-flex align-items-center jcsb">
+                        <div class="content_div">
+                            <img src="./assets/ride-budget.svg" alt="">
+                            <p>For any budget</p>
+                            <p>From <strong>Bikes</strong> and <strong>Autos</strong> to <strong>Prime Sedans</strong> and <strong>Prime SUVs</strong>, you will find a ride in your budget at your convenience any time.</p>
+                        </div>
+                        <div class="content_div">
+                            <img src="./assets/ride-distance.svg" alt="">
+                            <p>For any distance</p>
+                            <p>Book rides within the city with <strong>Daily</strong>, or take a trip to your favourite destinations outside the city with <strong>Outstation</strong>.</p>
+                        </div>
+                        <div class="content_div">
+                            <img src="./assets/ride-duration.svg" alt="">
+                            <p>For any duration</p>
+                            <p>Easily plan a day out without having to worry about conveyance with an hour-based package from <strong>Rental</strong>.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- phone section -->
+                 <div class="sec2_inner_sec2 display-flex">
+                    <div class="content_div video">
+                        <video autoplaymode="on-scroll" class="cld-video-player" playsinline="" autoplay="" muted="" style="display: block;"><source src="./assets/for-riders.mp4" type="video/mp4"> Your browser does not support the video tag. </video>
+                    </div>
+                    <div class="content_div display-flex align-items-center justify-content-center">
+                        <div class="some_content display-flex">
+                            <p>Making innovations <br>since 2011</p>
+                            <div class="content">
+                                <p class="some_heading">For Riders</p>
+                                <p class="some_text">We constantly experiment to come up with industry-first features for our riders that eventually become a norm.</p>
+                            </div>
+                            <div class="content">
+                                <p class="some_heading">For Drivers</p>
+                                <p class="some_text">Our drivers get real time stats to help optimize their rides better and earn more, straight from the app.</p>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+
+            </div>
+        </div>
+        <!-- sec2 ends -->
+         <!-- section3 starts -->
+        <div class="sec3_wrapper display-flex justify-content-center">
+            <div class="sec3_inner_wrapper display-flex justify-content-center align-items-start">
+                <div class="heading_text">
+                    <h4> Experience the smarter way to pay </h4>
+                    <div class="inner_content display-flex align-items-center">
+                        <div class="content1"></div>
+                        <div class="content">
+                            <div class="inner_content1 display-flex align-items-center">
+                                <p>Postpaid +</p>
+                                <div class="display-flex justify-content-center align-items-center">
+                                    <p>Trusted by 40 lakh+ users</p>
+                                </div>
+                                
+                            </div>
+                            <div class="inner_content2">
+                                <h5>Buy now, pay later for all <br>spends once a month</h5>
+                            </div>
+                            <div class="inner_content3 display-flex">
+                                <div class="content3">
+                                    <img src="./assets/insurance-1.svg" alt="">
+                                    <p>Buy now, pay after 30 days</p>
+                                </div>
+                                <div class="content3">
+                                    <img src="./assets/insurance-2.svg" alt="">
+                                    <p>Shop across 20,000 apps</p>
+                                </div>
+                                <div class="content3">
+                                    <img src="./assets/insurance-3.svg" alt="">
+                                    <p>Credit limit upto ₹100,000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ss_hack display-flex justify-content-start align-items-end">
+                        <a href="">Explore more on the Ola app <svg width="17" height="11" viewBox="0 0 17 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.3021 4.9625C11.2223 4.02306 10.1149 2.55564 10.1149 0.5H11.6741C11.6741 2.00506 12.5191 3.11558 13.465 3.89193C13.9336 4.2765 14.4061 4.56036 14.7628 4.74804C14.9402 4.84139 15.0866 4.90966 15.1862 4.95367C15.2359 4.97565 15.2737 4.99148 15.2978 5.00129L15.3231 5.01147L15.3261 5.01264L15.3275 5.01318L17 5.64674L15.4019 6.45391L15.3957 6.45706L15.368 6.4716C15.3424 6.48521 15.3028 6.50655 15.2512 6.53536C15.1481 6.59305 14.9977 6.68035 14.8159 6.79514C14.4506 7.02575 13.9668 7.36209 13.4868 7.7864C12.4939 8.66398 11.6741 9.77657 11.6741 11H10.1149C10.1149 9.07343 11.374 7.56102 12.4601 6.6011C12.4843 6.57969 12.5085 6.55849 12.5327 6.5375H0.5V4.9625H12.3021Z" fill="#3CEF83"/>
+                            </svg>
+                            </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- sec3 ends -->
+         <!-- next section4 sec4 starts -->
+        <div class="sec4_wrapper display-flex justify-content-center align-items-center">
+            <div class="sec4_in_wrap">
+                <h5 class="mgz-element-heading-text"> Making a difference </h5>
+                <div class="inner-content display-flex ">
+                    <div class="yr8ep0g mgz-element mgz-element-column ola_foundation_column_first mgz-col-md-6">
+                        <div class="mgz-element-inner yr8ep0g-s">
+                            <div class="yr70anq mgz-element mgz-child mgz-element-text ola_foundation_desc">
+                                <div class="mgz-element-inner yr70anq-s">
+                                    <p>Ola Foundation, the social welfare arm of Ola, is an outcome of a belief based on real interactions, research, and extensive study on the far-reaching impact of enabling and equipping people.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="q4avv8v mgz-element mgz-element-column ola_foundation_column_second mgz-col-md-3 mgz-hidden-sm mgz-hidden-xs">
+                        <div class="mgz-element-inner q4avv8v-s">
+                            <div class="ocubv4u mgz-element mgz-child mgz-element-text foundation_sub_title">
+                                <div class="mgz-element-inner ocubv4u-s">
+                                    <p>1 Lakh+</p>
+                                </div>
+                            </div>
+                            <div class="tgfrxqh mgz-element mgz-child mgz-element-text foundation_sub_desc">
+                                <div class="mgz-element-inner tgfrxqh-s">
+                                    <p>Families impacted in FY 2020-21</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mungeyc mgz-element mgz-element-column ola_foundation_column_third mgz-col-md-3 mgz-hidden-sm mgz-hidden-xs">
+                        <div class="mgz-element-inner mungeyc-s">
+                            <div class="nvqdjob mgz-element mgz-child mgz-element-text foundation_sub_title">
+                                <div class="mgz-element-inner nvqdjob-s">
+                                    <p>93 Lakh+</p>
+                                </div>
+                            </div>
+                            <div class="nswbr0h mgz-element mgz-child mgz-element-text foundation_sub_desc">
+                                <div class="mgz-element-inner nswbr0h-s">
+                                    <p>Meals enabled across India in FY 2020-21</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sec4_ss display-flex justify-content-start align-items-end">
+                    <a href=""> More about Ola Foundation <svg width="17" height="11" viewBox="0 0 17 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.3021 4.9625C11.2223 4.02306 10.1149 2.55564 10.1149 0.5H11.6741C11.6741 2.00506 12.5191 3.11558 13.465 3.89193C13.9336 4.2765 14.4061 4.56036 14.7628 4.74804C14.9402 4.84139 15.0866 4.90966 15.1862 4.95367C15.2359 4.97565 15.2737 4.99148 15.2978 5.00129L15.3231 5.01147L15.3261 5.01264L15.3275 5.01318L17 5.64674L15.4019 6.45391L15.3957 6.45706L15.368 6.4716C15.3424 6.48521 15.3028 6.50655 15.2512 6.53536C15.1481 6.59305 14.9977 6.68035 14.8159 6.79514C14.4506 7.02575 13.9668 7.36209 13.4868 7.7864C12.4939 8.66398 11.6741 9.77657 11.6741 11H10.1149C10.1149 9.07343 11.374 7.56102 12.4601 6.6011C12.4843 6.57969 12.5085 6.55849 12.5327 6.5375H0.5V4.9625H12.3021Z" fill="#3CEF83"></path>
+                        </svg>
+                        </a>
+                </div>
+            </div>
+        </div>
+        <!-- sec4 ends -->
+         <!-- sec5 starts -->
+        <div class="sec5_wrapper display-flex align-items-center justify-content-center">
+
+            <div class="sec5_in_wrapper">
+                <div class="mgz-element-inner n899f6f-s">
+                    <div class="nfk07eq mgz-element mgz-child mgz-element-heading section_title">
+                        <div class="mgz-element-inner nfk07eq-s">
+                            <h6 class="mgz-element-heading-text"> 
+                                Experience a new way to order food 
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lkrjslj display-flex">
+                    <div class="mgz-element-inner c7v29db-s">
+                        <div class="mgz-element-inner d00d2gn-s">
+                            <p>ONDC Food</p>
+                        </div>
+                        <div class="mgz-element-inner k6u4hdw-s">
+                            <p>Make hunger disappear with your go to comfort food.</p>
+                        </div>
+                        <div class="mgz-element-inner uu8rjm0-s">
+                            <div class="mgz-button mgz-btn-style-flat mgz-btn-size-md">
+                                <a href="https://play.google.com/store/apps/details?id=com.olacabs.customer&amp;hl=en_IN&amp;gl=US" class="mgz-link mgz-btn" title=""> Explore more on the Ola app <svg width="17" height="11" viewBox="0 0 17 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.3021 4.9625C11.2223 4.02306 10.1149 2.55564 10.1149 0.5H11.6741C11.6741 2.00506 12.5191 3.11558 13.465 3.89193C13.9336 4.2765 14.4061 4.56036 14.7628 4.74804C14.9402 4.84139 15.0866 4.90966 15.1862 4.95367C15.2359 4.97565 15.2737 4.99148 15.2978 5.00129L15.3231 5.01147L15.3261 5.01264L15.3275 5.01318L17 5.64674L15.4019 6.45391L15.3957 6.45706L15.368 6.4716C15.3424 6.48521 15.3028 6.50655 15.2512 6.53536C15.1481 6.59305 14.9977 6.68035 14.8159 6.79514C14.4506 7.02575 13.9668 7.36209 13.4868 7.7864C12.4939 8.66398 11.6741 9.77657 11.6741 11H10.1149C10.1149 9.07343 11.374 7.56102 12.4601 6.6011C12.4843 6.57969 12.5085 6.55849 12.5327 6.5375H0.5V4.9625H12.3021Z" fill="#3CEF83"/>
+                                    </svg></a> 
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="sec5_ss">
+                    </div>
+                    
+                </div>
+                <div class="ksdjfsk">
+                    <p>Powered by Ola Stores Technologies Private Limited</p>
+                </div>
+                
+            </div>
+
+        </div>
+        <!-- sec5 ends -->
+         <!-- sec6 starts -->
+
+         <div class="sec6_wrapper display-flex justify-content-center align-items-center">
+            <div class="sec6_in_wrapper">
+                <div class="mgz-element-inner j7h1jfd-s">
+                    <p>Recent from our blogs</p>
+                </div>
+                <div class="sec6_ss display-flex align-items-center">
+                    <div class="know_more">
+                        <img src="./assets/pli-agreement.png" alt="">
+                        <p>Lorem, ipsum dolor.</p>
+                        <a href="">Know more <svg width="17" height="11" viewBox="0 0 17 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.3021 4.9625C11.2223 4.02306 10.1149 2.55564 10.1149 0.5H11.6741C11.6741 2.00506 12.5191 3.11558 13.465 3.89193C13.9336 4.2765 14.4061 4.56036 14.7628 4.74804C14.9402 4.84139 15.0866 4.90966 15.1862 4.95367C15.2359 4.97565 15.2737 4.99148 15.2978 5.00129L15.3231 5.01147L15.3261 5.01264L15.3275 5.01318L17 5.64674L15.4019 6.45391L15.3957 6.45706L15.368 6.4716C15.3424 6.48521 15.3028 6.50655 15.2512 6.53536C15.1481 6.59305 14.9977 6.68035 14.8159 6.79514C14.4506 7.02575 13.9668 7.36209 13.4868 7.7864C12.4939 8.66398 11.6741 9.77657 11.6741 11H10.1149C10.1149 9.07343 11.374 7.56102 12.4601 6.6011C12.4843 6.57969 12.5085 6.55849 12.5327 6.5375H0.5V4.9625H12.3021Z" fill="#3CEF83"/>
+                            </svg></a>
+                    </div>
+                    <div class="know_more">
+                        <img src="./assets/ola-to-invest.png" alt="">
+                        <p>Lorem, ipsum dolor.</p>
+                        <a href="">Know more <svg width="17" height="11" viewBox="0 0 17 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.3021 4.9625C11.2223 4.02306 10.1149 2.55564 10.1149 0.5H11.6741C11.6741 2.00506 12.5191 3.11558 13.465 3.89193C13.9336 4.2765 14.4061 4.56036 14.7628 4.74804C14.9402 4.84139 15.0866 4.90966 15.1862 4.95367C15.2359 4.97565 15.2737 4.99148 15.2978 5.00129L15.3231 5.01147L15.3261 5.01264L15.3275 5.01318L17 5.64674L15.4019 6.45391L15.3957 6.45706L15.368 6.4716C15.3424 6.48521 15.3028 6.50655 15.2512 6.53536C15.1481 6.59305 14.9977 6.68035 14.8159 6.79514C14.4506 7.02575 13.9668 7.36209 13.4868 7.7864C12.4939 8.66398 11.6741 9.77657 11.6741 11H10.1149C10.1149 9.07343 11.374 7.56102 12.4601 6.6011C12.4843 6.57969 12.5085 6.55849 12.5327 6.5375H0.5V4.9625H12.3021Z" fill="#3CEF83"/>
+                            </svg></a>
+                    </div>
+                    <div class="know_more">
+                        <img src="./assets/indigenous-cell.png" alt="">
+                        <p>Lorem, ipsum dolor.</p>
+                        <a href="">Know more <svg width="17" height="11" viewBox="0 0 17 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.3021 4.9625C11.2223 4.02306 10.1149 2.55564 10.1149 0.5H11.6741C11.6741 2.00506 12.5191 3.11558 13.465 3.89193C13.9336 4.2765 14.4061 4.56036 14.7628 4.74804C14.9402 4.84139 15.0866 4.90966 15.1862 4.95367C15.2359 4.97565 15.2737 4.99148 15.2978 5.00129L15.3231 5.01147L15.3261 5.01264L15.3275 5.01318L17 5.64674L15.4019 6.45391L15.3957 6.45706L15.368 6.4716C15.3424 6.48521 15.3028 6.50655 15.2512 6.53536C15.1481 6.59305 14.9977 6.68035 14.8159 6.79514C14.4506 7.02575 13.9668 7.36209 13.4868 7.7864C12.4939 8.66398 11.6741 9.77657 11.6741 11H10.1149C10.1149 9.07343 11.374 7.56102 12.4601 6.6011C12.4843 6.57969 12.5085 6.55849 12.5327 6.5375H0.5V4.9625H12.3021Z" fill="#3CEF83"/>
+                            </svg></a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- sec6 ends -->
+         <!-- sec7 starts -->
+
+        <div class="sec7_wrapper display-flex justify-content-center align-items-center">
+            <div class="sec7_in_wrapper">
+                <p>Download our apps to get the best experience</p>
+                <div class="content_wrapper display-flex g50">
+
+                    <a href="">
+                        <div class="lskajf">
+                            <div class="kdsfjksj">
+                                <img src="./assets/olalogo.svg" alt="">
+                            </div>
+                            <div class="ksjdkja">
+                                <div>
+                                    <span>Ola</span>
+                                    <span>
+                                        <svg width="17" height="11" viewBox="0 0 17 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.3021 4.9625C11.2223 4.02306 10.1149 2.55564 10.1149 0.5H11.6741C11.6741 2.00506 12.5191 3.11558 13.465 3.89193C13.9336 4.2765 14.4061 4.56036 14.7628 4.74804C14.9402 4.84139 15.0866 4.90966 15.1862 4.95367C15.2359 4.97565 15.2737 4.99148 15.2978 5.00129L15.3231 5.01147L15.3261 5.01264L15.3275 5.01318L17 5.64674L15.4019 6.45391L15.3957 6.45706L15.368 6.4716C15.3424 6.48521 15.3028 6.50655 15.2512 6.53536C15.1481 6.59305 14.9977 6.68035 14.8159 6.79514C14.4506 7.02575 13.9668 7.36209 13.4868 7.7864C12.4939 8.66398 11.6741 9.77657 11.6741 11H10.1149C10.1149 9.07343 11.374 7.56102 12.4601 6.6011C12.4843 6.57969 12.5085 6.55849 12.5327 6.5375H0.5V4.9625H12.3021Z" fill="#000000"/>
+                                            </svg>                                            
+                                    </span>
+                                </div>
+                                <div>
+                                    <p>
+                                        Book cabs, buy insurance, access Ola Money and much more
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="lskajf">
+                            <div class="kdsfjksj">
+                                <img src="./assets/ola-driver.svg" alt="">
+                            </div>
+                            <div class="ksjdkja">
+                                <div>
+                                    <span>Ola Driver</span>
+                                    <span>
+                                        <svg width="17" height="11" viewBox="0 0 17 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.3021 4.9625C11.2223 4.02306 10.1149 2.55564 10.1149 0.5H11.6741C11.6741 2.00506 12.5191 3.11558 13.465 3.89193C13.9336 4.2765 14.4061 4.56036 14.7628 4.74804C14.9402 4.84139 15.0866 4.90966 15.1862 4.95367C15.2359 4.97565 15.2737 4.99148 15.2978 5.00129L15.3231 5.01147L15.3261 5.01264L15.3275 5.01318L17 5.64674L15.4019 6.45391L15.3957 6.45706L15.368 6.4716C15.3424 6.48521 15.3028 6.50655 15.2512 6.53536C15.1481 6.59305 14.9977 6.68035 14.8159 6.79514C14.4506 7.02575 13.9668 7.36209 13.4868 7.7864C12.4939 8.66398 11.6741 9.77657 11.6741 11H10.1149C10.1149 9.07343 11.374 7.56102 12.4601 6.6011C12.4843 6.57969 12.5085 6.55849 12.5327 6.5375H0.5V4.9625H12.3021Z" fill="#000000"/>
+                                            </svg>
+                                            
+                                    </span>
+                                </div>
+                                <div>
+                                    <p>
+                                        Register as a driver to take rides, see your earnings and incentives
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+         <!-- sec7 ends -->
+        <!-- footer part -->
+
+        <div class="bgcover">
+            <div class="footer_p">
+                <div class="footer_content display-flex justify-content-start align-items-center">
+                    <div class="lwej display-flex g20">
+                        <div class="kesw">
+                            <div class="flogo">
+                                <a href="">
+                                    <svg width="49" height="34" viewBox="0 0 39 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M31.44 11.94L35.08 18.73H38.66L31.44 5.28003L24.22 18.73H27.8L31.44 11.94Z" fill="black"/>
+                                        <path d="M19.5899 15.58L19.5999 5.26001H16.4399V18.73H22.5299L24.2199 15.58H19.5899Z" fill="black"/>
+                                        <path d="M7.57009 4.78004C6.14169 4.77806 4.74479 5.19982 3.55615 5.99196C2.36752 6.7841 1.44055 7.91102 0.892555 9.23013C0.344557 10.5492 0.200149 12.0012 0.477604 13.4024C0.755059 14.8036 1.44191 16.0911 2.45124 17.1018C3.46058 18.1125 4.74704 18.8012 6.14786 19.0806C7.54867 19.36 9.00089 19.2176 10.3208 18.6714C11.6406 18.1252 12.7688 17.1998 13.5626 16.0123C14.3564 14.8248 14.7801 13.4284 14.7801 12C14.7801 10.0869 14.0208 8.25198 12.6689 6.89826C11.3171 5.54453 9.48322 4.78269 7.57009 4.78004ZM7.57009 15.89C6.8003 15.892 6.04723 15.6656 5.40621 15.2393C4.76518 14.8131 4.26504 14.2062 3.96908 13.4956C3.67312 12.785 3.59466 12.0025 3.74362 11.2473C3.89259 10.492 4.26228 9.79797 4.80591 9.25295C5.34953 8.70792 6.04265 8.33644 6.7975 8.18553C7.55236 8.03462 8.33502 8.11107 9.04641 8.4052C9.7578 8.69933 10.3659 9.19791 10.7938 9.83783C11.2217 10.4778 11.4501 11.2302 11.4501 12C11.4474 13.0326 11.0354 14.0221 10.3043 14.7513C9.57317 15.4805 8.58271 15.89 7.55009 15.89H7.57009Z" fill="black"/>
+                                        </svg>
+                                </a>
+                               
+                            </div>
+                            <div class="social">
+                                <a href=""><img src="./assets/instagram-icon.svg" alt=""></a>
+                                <a href=""> <img src="./assets/youtube-icon.svg" alt=""></a>
+                                <a href=""><img src="./assets/twitter-icon.svg" alt=""></a>                                
+                            </div>
+                        </div>
+                        <div class="kesw">
+                            <ul>
+                                <a href="">
+                                    <li>Book a cab</li>
+                                </a>
+                                <a href="">
+                                    <li>Drive with us</li>
+                                </a>
+                                <a href="">
+                                    <li>Outstation</li>
+                                </a>
+                                <a href="">
+                                    <li>Rental</li>
+                                </a>
+                                <a href="">
+                                    <li>Ola Money</li>
+                                </a>
+                                <a href="">
+                                    <li>Corporate</li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="kesw">
+                            <ul>
+                                <a href="">
+                                    <li>About us</li>
+                                </a>
+                                <a href="">
+                                    <li>Contact Us</li>
+                                </a>
+                                <a href="">
+                                    <li>Support</li>
+                                </a>
+                                <a href="">
+                                    <li>Careers</li>
+                                </a>
+                                <a href="">
+                                    <li>Media Center</li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="kesw">
+                            <ul>
+                                <a href="">
+                                    <li>Ola S1</li>
+                                </a>
+                                <a href="">
+                                    <li>FutureFactory</li>
+                                </a>
+                                <a href="">
+                                    <li>Electric</li>
+                                </a>
+                                <a href="">
+                                    <li>Investor Relations</li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="djsk display-flex">
+                        <div class="kejs">
+                            <p>Copyright © 2024 Ola Electric Mobility Pvt Ltd. All Rights Reserved.</p>
+                        </div>
+                        <div class="kejs">
+                            <ul class="display-flex g40">
+                                <a href="">
+                                    <li>Notices</li>
+                                </a>
+                                <a href="">
+                                    <li>Privacy Policy</li>
+                                </a>
+                                <a href="">
+                                    <li>Terms of Services</li>
+                                </a>
+                            </ul>
+
+
+                            <div class="dropdown-center">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #f2f4f6; color: #00000066; border: none;">
+                                  IN
+                                </button>
+                                <ul class="dropdown-menu" style="background-color: #f2f4f6; border: none;">
+                                  <li><a class="dropdown-item" href="#">NZ</a></li>
+                                  <li><a class="dropdown-item" href="#">UK</a></li>
+                                  <li><a class="dropdown-item" href="#">AU</a></li>
+                                </ul>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </div>
+         
+        
+    </div>
+
+    <script src="./js/sidebar.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

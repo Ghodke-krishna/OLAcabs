@@ -1,0 +1,58 @@
+
+/* flex porperties */
+.display-flex{
+    display: flex;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.justify-content-start{
+    justify-content: flex-start;
+}
+
+.justify-content-end{
+    justify-content: flex-end;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.align-items-start{
+    align-items: flex-start;
+}
+
+.align-items-end{
+    align-items: flex-end;
+}
+
+.jcsb{
+    justify-content: space-between;
+}
+
+.g10{
+    gap: 10px;
+}
+
+.g20{
+    gap: 20px;
+}
+
+.g40{
+    gap: 40px;
+}
+
+.wd-10{
+    width: 10%;
+}
+
+.g50{
+    gap: 50px;
+}
+
+.g60{
+    gap: 60px;
+}
+

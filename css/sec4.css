@@ -1,0 +1,100 @@
+.sec4_in_wrap .sec4_ss a{
+    font-size: 23px;
+    text-decoration: none;
+    color: #3CEF83;
+    letter-spacing: -1px;
+    font-weight: 600;
+}
+
+.sec4_wrapper{
+    /* border: 2px solid red; */
+    height: 1065.63px;
+    /* background-color: red; */
+}
+
+.sec4_wrapper .sec4_in_wrap{
+    /* border: 2px solid rebeccapurple; */
+    width: 68%;
+    height: 70%;
+}
+
+.mgz-element-heading-text{
+    
+        /* Font & Text */
+        /* font-family: gentonamedium; */
+        font-size: 48px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 400;
+        letter-spacing: -1px;
+        line-height: 48px;
+        text-decoration: none solid rgb(0, 0, 0);
+        text-align: left;
+        text-indent: 0px;
+        text-transform: none;
+        vertical-align: baseline;
+        white-space: normal;
+        word-spacing: 0px;
+    
+        /* Color & Background */
+        text-shadow: rgb(255, 255, 255) 1.152px 1.152px 0px, rgb(146, 200, 62) 1.728px 1.728px 0px;
+        color: rgb(0, 0, 0);
+    
+        /* Box */
+        height: 69px;
+        width: 420px;
+}
+
+.sec4_in_wrap p {
+	/* Font & Text */
+	/* font-family: gentonabook; */
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	letter-spacing: -0.18px;
+	
+
+	
+	color: rgb(92, 92, 92);
+
+	/* Box */
+	height: auto;
+	width: auto;
+	
+}
+
+.nvqdjob-s p, .ocubv4u-s  p {
+	/* Font & Text */
+	/* font-family: gentonamedium; */
+	font-size: 22px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	letter-spacing: -0.22px;
+	line-height: 24px;
+	text-decoration: none solid rgb(0, 0, 0);
+	text-align: left;
+	text-indent: 0px;
+	text-transform: none;
+	vertical-align: baseline;
+	white-space: normal;
+	word-spacing: 0px;
+
+	/* Color & Background */
+	
+	color: rgb(0, 0, 0);
+
+	/* Box */
+	height: 24px;
+	width: 244.575px;	
+}
+
+.sec4_in_wrap .sec4_ss{
+    /* border: 2px solid yellowgreen; */
+    height: 81%;
+    background-image: url('../assets/img112.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

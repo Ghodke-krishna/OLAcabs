@@ -1,0 +1,163 @@
+header{
+    /* border: 2px solid red; */
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    background-color: #000000;
+    z-index: 4;
+}
+
+.header_section{
+    /* border: 2px solid blue; */
+    height: inherit;
+    width: 83%;
+    
+}
+
+.logo{
+    /* border: 2px solid red; */
+    height: inherit;
+    width: 8%;
+    padding-left: 1%;
+}
+
+.header_menu{
+    /* border: 2px solid yellow; */
+    height: inherit;
+    padding-top: 2%;
+}
+
+.menu{
+    /* border: 2px solid sandybrown; */
+    height: 40px;
+    width: 100%;
+    padding-left: 0%;
+    
+    
+}
+
+.menu{
+    list-style: none;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* right menu */
+.right_menu{
+    /* border: 2px solid white; */
+    width: 26%;
+    height: 100%;
+}
+
+.right_menu_wrapper{
+    /* border: 2px solid cyan; */
+    width: 85%;
+}
+
+.right_menu_link{
+    /* border: 2px solid red; */
+    height: 44px;
+    width: 124.53px;
+    font-size: 14px;
+    font-weight: 500;
+   
+}
+
+.right_menu_link a{
+    text-decoration: none;
+}
+
+#Book{
+    
+    background-color: #ffffff2b;
+}
+
+#Book a{
+    color: white;
+}
+
+#Testride{
+    background-color: white;
+    
+}
+
+#Testride a{
+    color: #000000;
+}
+
+/* hamburger side bar */
+.side_bar{
+    /* border: 2px solid red; */
+    height: 44px;
+    width: 40px;
+}
+
+.side_menu{
+    position: fixed;
+    height: 100vh;
+    width: 367px;
+    z-index: 9999;
+    background-color: white;
+    /* border: 2px solid red; */
+    right: 0%;
+    display: none;
+    flex-direction: column;
+}
+
+.close_button{
+    /* border: 2px solid; */
+    width: 100%;
+    text-align: right;
+    line-height: 34px;
+}
+
+.side_menu .menu{
+    /* border: 2px solid blue; */
+    height: 403px;
+    overflow: scroll;
+}
+
+.side_menu .menu ul{
+    list-style: none;
+    text-align: center;
+    line-height: 50px;
+}
+
+.side_menu .menu a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.side_menu .side_menu_bottom{
+    /* border: 2px solid red; */
+    height: 294px;
+}
+
+.side_menu_bottom .menu_img{
+    padding: 20px;
+}
+
+.menu_img img{
+    height: 132px;
+}
+
+.side_menu_bottom .bottom_div{
+    /* border: 2px solid red; */
+    height: 60px;
+}
+
+.bottom_div ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.bottom_div ul{
+    list-style: none;
+}

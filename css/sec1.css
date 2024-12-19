@@ -1,0 +1,133 @@
+.sec1_wrapper{
+    /* border:  2px solid #ff0000; */
+    height: 891.06px;
+    flex-direction: column;
+    padding-top: 2.9%;
+}
+
+.sec1_wrapper .index_banner{
+    height: 165.06px;
+    width: 1029.11px;
+    background-image: url('../assets/index_banner.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.sec1_wrapper .index_banner_2{
+    /* border: 2px solid red; */
+    height: 372px;
+    width: 1029.11px;
+
+}
+
+.sec1_wrapper .mgz-element-heading-text {
+    margin: 0;
+    color: black;
+    font-size: 48px;
+    text-align: center;
+    text-shadow: 1.152px 1.152px 0 #fff, 1.728px 1.728px 0 #92c83e;
+
+}
+
+.sec1_wrapper .index_banner_3{
+    /* border: 2px solid red; */
+    height: max-content;
+    width: 1029.11px;
+}
+
+.index_banner_3 .banner_container{
+    /* border: 2px solid green; */
+    height: max-content;
+    width: 343.04px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.index_banner_3 .banner_container>img{
+    height: 140px;
+    width: 140px;
+}
+
+.index_banner_3 .banner_container p+p+p{
+    
+        /* Font & Text */
+        /* font-family: gentonabook; */
+        font-size: 16px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 400;
+        letter-spacing: normal;
+        /* line-height: 24px; */
+        text-decoration: none solid rgba(33, 32, 38, 0.64);
+        text-align: center;
+        text-indent: 0px;
+        text-transform: none;
+        vertical-align: baseline;
+        white-space: normal;
+        word-spacing: 0px;
+        color: rgba(33, 32, 38, 0.64);
+    
+        /* Box */
+        height: 48px;
+        width: 205.812px;
+}
+
+.index_banner_3 .banner_container p+p{
+    
+        /* Font & Text */
+        /* font-family: gentonamedium; */
+        font-size: 30px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 500;
+        letter-spacing: -1px;
+        /* line-height: 48px; */
+        text-decoration: none solid rgb(0, 0, 0);
+        text-align: center;
+        text-indent: 0px;
+        text-transform: none;
+        vertical-align: baseline;
+        white-space: normal;
+        word-spacing: 0px;
+    
+    
+        color: rgb(0, 0, 0);
+    
+        /* Box */
+        height: 48px;
+        width: 343.038px;
+    
+        
+}
+
+.index_banner_3 .banner_container p{
+
+        /* Font & Text */
+        /* font-family: gentonamedium; */
+        font-size: 39px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 500;
+        letter-spacing: -1px;
+        /* line-height: 48px; */
+        text-decoration: none solid rgb(0, 0, 0);
+        text-align: center;
+        text-indent: 0px;
+        text-transform: none;
+        vertical-align: baseline;
+        white-space: normal;
+        word-spacing: 0px;
+    
+        /* Color & Background */
+       
+        color: rgb(0, 0, 0);
+    
+        /* Box */
+        height: 48px;
+        width: 343.038px;
+       
+    
+}

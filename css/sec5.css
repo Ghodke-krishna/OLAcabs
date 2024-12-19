@@ -1,0 +1,107 @@
+.sec5_wrapper{
+    /* border: 2px solid red; */
+    height: 758px;
+    width: 100%;
+    /* background-color: red; */
+    /* position: absolute;
+    z-index: 9999; */
+}
+
+.sec5_wrapper .sec5_in_wrapper{
+    /* border: 2px solid blue; */
+    height: 70%;
+    width: 68%;
+}
+
+.d00d2gn-s{
+    /* border: 2px solid red; */
+
+        /* Font & Text */
+        /* font-family: gentonalight; */
+        font-size: 24px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 400;
+        letter-spacing: normal;
+        line-height: 28px;
+        text-decoration: none solid rgb(0, 0, 0);
+        text-align: left;
+        text-indent: 0px;
+        text-transform: none;
+        vertical-align: baseline;
+        white-space: normal;
+        word-spacing: 0px;
+    
+        /* Color & Background */
+     
+        color: rgb(0, 0, 0);
+    
+        /* Box */
+        height: 50px;
+        width: 343.038px;
+}
+
+.nfk07eq-s{
+    height: 146px;
+    /* border: 2px solid red; */
+
+}
+
+.k6u4hdw-s{
+    /* border: 2px solid red; */
+
+        /* Font & Text */
+        /* font-family: gentonamedium; */
+        font-size: 24px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 600;
+        letter-spacing: normal;
+        line-height: 32px;
+        text-decoration: none solid rgb(0, 0, 0);
+        text-align: left;
+        text-indent: 0px;
+        text-transform: none;
+        vertical-align: baseline;
+        white-space: normal;
+        word-spacing: 0px;
+    
+        /* Color & Background */
+      
+        color: rgb(0, 0, 0);
+    
+        /* Box */
+        height: 95px;
+        width: 300px;
+    
+}
+
+.uu8rjm0-s a{
+    
+    font-size: 23px;
+    text-decoration: none;
+    color: #3CEF83;
+    letter-spacing: -1px;
+    font-weight: 600;
+}
+
+
+
+.c7v29db-s{
+    /* border: 2px solid green; */
+    height: 272px;
+}
+
+.sec5_ss{
+    /* border: 2px solid red; */
+    height: 272px;
+    width: 100%;
+    background-image: url('../assets/img113.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.ksdjfsk p{
+    text-align: right;
+}
